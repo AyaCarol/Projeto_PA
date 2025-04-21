@@ -1,7 +1,3 @@
-select * from contas_bancarias;
-select * from funcionarios;
-select * from produtos;
-
 CREATE DATABASE IF NOT EXISTS projeto_pa;
 USE projeto_pa;
 
