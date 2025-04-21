@@ -1,18 +1,17 @@
-## Getting Started
+## Projeto final 1BIM - Programação Avançada
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Esse é o nosso projeto final da matéria de Programação Avançada do curso de ADSIS - 5SEM! Nossa equipe é:
+- Ana Carolina Gomes da Silva 23211454-2
+- Emily Grzgorczyki 23034936-2
 
-## Folder Structure
+## Estrutura do trabalho
 
-The workspace contains two folders by default, where:
+Interpretamos a estrutura do trabalho como:
+- Models: Pessoa, Funcionario, ContaBancaria, ContaCorrente, ContaPoupança, Tributavel, Produto
+- Services: Empresa
+Entendemos a classe empresa como services por conta do seu controle das outras classes.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Conexão
+Para lidar com a conexão com o banco, definimos as duas pastas:
+- Factory: para criar a classe de conexão e inserir as credenciais do banco
+- DAO: Data Access Object, classes que nos permite a manipulação de query's sql
