@@ -6,10 +6,10 @@ Esse é o nosso projeto final da matéria de Programação Avançada do curso de
 
 ## Estrutura do trabalho
 
-Interpretamos a estrutura do trabalho como:
+Entendemos a classe empresa como services por conta do seu controle das outras classes. Dessa forma, interpretamos a estrutura do trabalho como:
 - Models: Pessoa, Funcionario, ContaBancaria, ContaCorrente, ContaPoupança, Tributavel, Produto
 - Services: Empresa
-Entendemos a classe empresa como services por conta do seu controle das outras classes.
+
 
 ### Banco SQL - JDBC
 O banco criado foi em MySQL e escolhemos o JDBC ao invés do JPA apenas pela familiaridade com a API.
